@@ -1,7 +1,7 @@
 # Ex.No:1  
 # Ex.Name: check whether a tree is a Binary Search Tree or not and to traverse inorder  
 
-## Date:  
+## Date:25/09/25
 
 ## Aim:  
 To Write a C++ function to check whether a tree is a Binary Search Tree or not and to traverse inorder.  
@@ -40,4 +40,16 @@ void traverseInOrder(struct node *temp) {
 <img width="1237" height="807" alt="image" src="https://github.com/user-attachments/assets/a7a289ce-7de3-436c-a9d7-9d7c306afa00" />
 
 ## Result:
-The Program to check whether a tree is a Binary Search Tree or not and to traverse inorder is executed Successfully.
+```
+Input:
+5
+1 2 l
+2 3 r
+3 4 r
+4 12 r
+12 5 l
+
+Output:
+Not a BST
+Inorder traversal:  2 3 4 5 12 1
+```
